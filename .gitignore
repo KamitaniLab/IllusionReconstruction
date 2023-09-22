@@ -7,6 +7,8 @@ __pycache__/
 *.mat
 *.h5
 *.pkl
+*.pt
+diffusion/
 data/
 results/
 tmp/
