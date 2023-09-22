@@ -1,0 +1,12 @@
+.DS_Store
+._*
+*~
+*.pyc
+__pycache__/
+.ipynb_checkpoints/
+*.mat
+*.h5
+*.pkl
+data/
+results/
+tmp/
