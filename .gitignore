@@ -9,6 +9,5 @@ __pycache__/
 *.pkl
 *.pt
 diffusion/
-data/
 results/
 tmp/
