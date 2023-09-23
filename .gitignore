@@ -8,6 +8,5 @@ __pycache__/
 *.h5
 *.pkl
 *.pt
-diffusion/
 results/
 tmp/
