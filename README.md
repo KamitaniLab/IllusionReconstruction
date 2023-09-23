@@ -23,19 +23,14 @@
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
+
 
 
 
 <!-- PROJECT LOGO -->
 <br />
-<div align="center">
-  <a href="https://github.com/KamitaniLab/IllusionReconstruction/blob/main/">
-    <img src="results/plots/Fig2.pdf" alt="Logo" width="90" height="100">
-  </a>
 
-<h3 align="center">Reconstructing visual illusory experiences from human brain activity</h3>
+<h2 align="center">Reconstructing visual illusory experiences from human brain activity</h2>
 
   <p align="center">
     Cheng, F., Horikawa, T., Majima, K., Tanaka, M., Abdelhack, M., Aoki, S. C., Hirano, J., & Kamitani, Y.
@@ -49,6 +44,13 @@
     ·
     <a href="https://github.com/github_username/repo_name/issues">Request Feature</a>
   </p>
+  
+<br />
+<br /> 
+<div align="center">
+  <a href="https://github.com/KamitaniLab/IllusionReconstruction_private/blob/main/Fig_github.jpb">
+    <img src="results/plots/Fig2.pdf" alt="Logo" width="1480" height="500">
+  </a> 
 </div>
 
 
@@ -224,13 +226,13 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/github_username/repo_name.svg?style=for-the-badge
-[contributors-url]: https://github.com/github_username/repo_name/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/github_username/repo_name.svg?style=for-the-badge
-[forks-url]: https://github.com/github_username/repo_name/network/members
-[stars-shield]: https://img.shields.io/github/stars/github_username/repo_name.svg?style=for-the-badge
-[stars-url]: https://github.com/github_username/repo_name/stargazers
-[issues-shield]: https://img.shields.io/github/issues/github_username/repo_name.svg?style=for-the-badge
-[issues-url]: https://github.com/github_username/repo_name/issues
+[contributors-url]: https://github.com/KamitaniLab/IllusionReconstruction/graphs/contributors
+[forks-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
+[forks-url]: https://github.com/KamitaniLab/IllusionReconstruction/forks
+[stars-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
+[stars-url]: https://github.com/KamitaniLab/IllusionReconstruction/stargazers
+[issues-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
+[issues-url]: https://github.com/KamitaniLab/IllusionReconstruction/issues
 [license-shield]: https://img.shields.io/github/license/github_username/repo_name.svg?style=for-the-badge
 [license-url]: https://github.com/github_username/repo_name/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
