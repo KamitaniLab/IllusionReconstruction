@@ -25,9 +25,6 @@
 [![Issues][issues-shield]][issues-url]
 
 
-
-
-<!-- PROJECT LOGO -->
 <br />
 
 <h2 align="center">Reconstructing visual illusory experiences from human brain activity</h2>
@@ -99,14 +96,14 @@ To quickly test the reconstruction code, run:
   
   ```
 
-Perform reconstruction analysis (and replicate Figure 2 in the paper), run:
+Reconstruct using single-trial fMRI samples, run:
   
   ```sh
   ./feature_decoding-to-generator.sh
   
   ```
   
-Evaluate reconstructions, run:
+Evaluate single-trial reconstructions from individual brain regions, run:
 
   ```sh
   ./evaluation_line_color.sh
@@ -120,7 +117,7 @@ You can find the following figure in `results/plots/quick_test`. From left to ri
 
 <div align="center">
   <a href="https://github.com/KamitaniLab/IllusionReconstruction/blob/main/">
-    <img src="visualization/figure/quick_test_github.png" width="900" height="300">
+    <img src="visualization/figure/quick_test_github.png" width="600" height="200">
   </a> 
 </div>
 
