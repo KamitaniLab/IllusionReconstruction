@@ -42,11 +42,9 @@
     <a href="https://doi.org/10.1101/2023.06.15.545037">bioRxiv</a>
   </p>
   
-<br />
-<br /> 
 <div align="center">
   <a href="https://github.com/KamitaniLab/IllusionReconstructionblob/main/">
-    <img src="visualization/figure/Reconstruction_procedure.png" width="900" height="380">
+    <img src="visualization/figure/Reconstruction_procedure.png" width="900" height="378">
   </a> 
 </div>
 
