@@ -48,7 +48,7 @@ images = [
 
 # stimulus images
 stimuli_dir_root = './data'
-source_image_dir = os.path.join(stimuli_dir_root, 'Image')
+source_image_dir = os.path.join(stimuli_dir_root, 'test_image')
 source_image_ext = "tif"
 
 true_image_filepath_list = []
