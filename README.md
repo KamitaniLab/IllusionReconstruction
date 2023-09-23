@@ -95,15 +95,15 @@ Step2: Activate the environment.
 
 ### Downloading Dataset
 
-To utilize this project, you'll need to download the required dataset [figShare](https://figshare.com/) and organize the dataset appropriately. After downloading data (preprocessed fMRI data, stimulus DNN features, pre-trained generator), make sure to move them to the correct locations.
+To utilize this project, you'll need to download the required dataset [Figshare](https://figshare.com/) and organize the dataset appropriately. After downloading data (preprocessed fMRI data, stimulus DNN features, pre-trained generator), make sure to move them to the correct locations.
  
   ```sh
-  # move fMRI data files (*.h5) and DNN features (*.mat) to ./data 
+  # move fMRI data files (*.h5) and DNN features (*.mat) to data folder 
   mv path_to_downloaded_fmri ./data/fmri/train_or_test
   mv path_to_downloaded_DNNfeature ./data/stimulus_feature/train_or_test/dataset_name/caffe/bvlc_reference_caffenet/ 
   
   
-  # move pre-trained generator (*.pt) to ./generator
+  # move pre-trained generator (*.pt) to generator folder
   mv path_to_downloaded_generator ./generator/generator_name
   ```
 
@@ -115,50 +115,50 @@ To utilize this project, you'll need to download the required dataset [figShare]
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+To quickly test the reconstruction code, run:
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+  ```sh
+  conda activate brain_decoding-to-generator
+  
+  ```
+
+Perform reconstruction analysis (and replicate Figure 2 in the paper), run:
+  
+  ```sh
+  conda activate brain_decoding-to-generator
+  
+  ```
+  
+Evaluate reconstructions, run:
+
+  ```sh
+  conda activate brain_decoding-to-generator
+  
+  ```
+
+  
+### Example output figure  
+
+You can find the following figure in `results/plots/quick_test`. From the left to right columns: stimulus (1st), reconstruction from stimulus features (2), reconstruction from brain-decoded features (3-9 correspond to S1-7; using fMRI sample averaged across trials)
+
+<div align="center">
+  <a href="https://github.com/KamitaniLab/IllusionReconstruction/blob/main/">
+    <img src="visualization/figure/recon_avg_trials_allsbj_Ehrenstein.pdf" width="900" height="300">
+  </a> 
+</div>
+
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
-<!-- ROADMAP -->
-## Roadmap
 
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
-
-See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues).
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<!-- Citation -->
+## Citation
 
 
 
-<!-- CONTRIBUTING -->
-## Contributing
-
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -167,20 +167,14 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
+Fan Cheng - [@LibraCheng](https://twitter.com/twitter_handle) - chengfanbrain@gmail.com
 
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
 
-* []()
-* []()
-* []()
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
