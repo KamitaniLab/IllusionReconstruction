@@ -49,26 +49,6 @@
 
 
 
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
-  </ol>
-</details>
-
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -93,7 +73,7 @@ Step2: Activate the environment.
   
   ```
 
-### Downloading Dataset
+### Download Dataset
 
 To utilize this project, you'll need to download the required dataset [Figshare](https://figshare.com/) and organize the dataset appropriately. After downloading data (preprocessed fMRI data, stimulus DNN features, pre-trained generator), make sure to move them to the correct locations.
  
@@ -108,9 +88,6 @@ To utilize this project, you'll need to download the required dataset [Figshare]
   ```
 
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <!-- USAGE EXAMPLES -->
 ## Usage
@@ -118,38 +95,35 @@ To utilize this project, you'll need to download the required dataset [Figshare]
 To quickly test the reconstruction code, run:
 
   ```sh
-  conda activate brain_decoding-to-generator
+  ./feature_decoding-to-generator_quick_test.sh
   
   ```
 
 Perform reconstruction analysis (and replicate Figure 2 in the paper), run:
   
   ```sh
-  conda activate brain_decoding-to-generator
+  ./feature_decoding-to-generator.sh
   
   ```
   
 Evaluate reconstructions, run:
 
   ```sh
-  conda activate brain_decoding-to-generator
+  ./evaluation_line_color.sh
   
   ```
 
   
 ### Example output figure  
 
-You can find the following figure in `results/plots/quick_test`. From the left to right columns: stimulus (1st), reconstruction from stimulus features (2), reconstruction from brain-decoded features (3-9 correspond to S1-7; using fMRI sample averaged across trials)
+You can find the following figure in `results/plots/quick_test`. From left to right columns: stimulus (1), reconstruction from stimulus features (2), reconstruction from brain-decoded features (3-9 correspond to S1-7; using fMRI sample averaged across trials)
 
 <div align="center">
   <a href="https://github.com/KamitaniLab/IllusionReconstruction/blob/main/">
-    <img src="visualization/figure/recon_avg_trials_allsbj_Ehrenstein.pdf" width="900" height="300">
+    <img src="visualization/figure/quick_test.png" width="900" height="300">
   </a> 
 </div>
 
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
@@ -157,10 +131,7 @@ You can find the following figure in `results/plots/quick_test`. From the left t
 <!-- Citation -->
 ## Citation
 
-
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+Cheng, F., Horikawa, T., Majima, K., Tanaka, M., Abdelhack, M., Aoki, S. C., Hirano, J., & Kamitani, Y. (2023). Reconstructing visual illusory experiences from human brain activity. BioRxiv. [https://doi.org/10.1101/2023.06.15.545037](https://doi.org/10.1101/2023.06.15.545037)
 
 
 
@@ -174,9 +145,6 @@ Fan Cheng - [@LibraCheng](https://twitter.com/twitter_handle) - chengfanbrain@gm
 
 
 
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
