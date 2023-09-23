@@ -59,7 +59,7 @@ Clone the repo:
 
 ### Build Environment
 
-Step1: Navigate to the directory and create the environment by running the following command.
+Step1: Navigate to the base directory and create the environment by running the following command.
   ```sh
   conda env create -f env.yaml
 
@@ -113,7 +113,7 @@ Evaluate single-trial reconstructions from individual brain regions, run:
   
 ### Example output figure  
 
-You can find the following figure in `results/plots/quick_test`. From left to right columns: stimulus (1), reconstruction from stimulus features (2), reconstruction from brain-decoded features (3-9 correspond to S1-7; using fMRI sample averaged across trials)
+You can find the following figure in `results/plots/quick_test`. From left to right columns: stimulus (1), reconstruction from stimulus features (2), reconstruction from brain-decoded features (3-9 correspond to Subject 1-7; using fMRI sample averaged across trials)
 
 <div align="center">
   <a href="https://github.com/KamitaniLab/IllusionReconstruction/blob/main/">
