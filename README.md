@@ -42,7 +42,7 @@
     <a href="https://doi.org/10.1101/2023.06.15.545037">bioRxiv</a>
   
 <div align="center">
-  <a href="https://github.com/KamitaniLab/IllusionReconstructionblob/main/">
+  <a href="https://github.com/KamitaniLab/IllusionReconstruction/blob/main/">
     <img src="visualization/figure/Reconstruction_procedure.png" width="900" height="365">
   </a> 
 </div>
@@ -74,34 +74,44 @@
 ## Getting Started
 
 This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
-
-### Dataset
-
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+Clone the repo
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+   git clone https://github.com/KamitaniLab/IllusionReconstruction.git
    ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
+
+### Prerequisites
+
+Step1: Navigate to the directory and create the environment by running the following command.
+  ```sh
+  conda env create -f env.yaml
+
+  ```
+Step2: Activate the environment.
+  ```sh
+  conda activate brain_decoding-to-generator
+  
+  ```
+
+### Downloading Dataset
+
+To utilize this project, you'll need to download the required dataset. Follow the steps below to obtain and organize the dataset appropriately.
+
+Step 1: Download data (preprocessed fMRI data, stimulus DNN features, pre-trained generator) from [figShare](https://figshare.com/)
+
+Step2: The project expects the dataset to be located at `./data` in the project's main directory, so make sure to move it to the correct location. 
+  ```sh
+  # move fMRI data files (*.h5) and DNN features (*.mat) to ./data 
+  mv path_to_downloaded_fmri ./data/fmri/<train or test>
+  mv path_to_downloaded_DNNfeature ./data/stimulus_feature/<train or test>/<dataset name>/caffe/bvlc_reference_caffenet/ 
+  
+  
+  # move pre-trained generator (*.pt) to ./generator
+  mv path_to_downloaded_generator ./generator/generator_name
+  ```
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
