@@ -1,0 +1,111 @@
+analysis name: deeprecon-fmd-mscoco_fmriprep_500voxel_bvlc_reference_caffenet_allunits_fastl2lir_alpha100
+
+# fMRI data
+training fmri:
+
+  S1:
+    - ./data/fmri/train/S1_ImageNetTraining.h5
+    - ./data/fmri/train/S1_FMD.h5
+    - ./data/fmri/train/S1_MSCOCO.h5
+    
+  S2:
+    - ./data/fmri/train/S2_ImageNetTraining.h5
+    - ./data/fmri/train/S2_FMD.h5
+    - ./data/fmri/train/S2_MSCOCO.h5
+    
+  S3:
+    - ./data/fmri/train/S3_ImageNetTraining.h5
+    - ./data/fmri/train/S3_FMD.h5
+    - ./data/fmri/train/S3_MSCOCO.h5
+    
+  S4:
+    - ./data/fmri/train/S4_ImageNetTraining.h5
+    - ./data/fmri/train/S4_FMD.h5
+    - ./data/fmri/train/S4_MSCOCO.h5
+    
+  S5:
+    - ./data/fmri/train/S5_ImageNetTraining.h5
+    - ./data/fmri/train/S5_FMD.h5
+    - ./data/fmri/train/S5_MSCOCO.h5
+    
+    
+  S7:
+    - ./data/fmri/train/S7_ImageNetTraining.h5
+    - ./data/fmri/train/S7_FMD.h5
+    - ./data/fmri/train/S7_MSCOCO.h5
+
+
+test fmri:
+
+  S1:
+    - ./data/fmri/test/S1_Illusion.h5
+
+  S2:
+    - ./data/fmri/test/S2_Illusion.h5
+   
+  S3:
+    - ./data/fmri/test/S3_Illusion.h5
+   
+  S4:
+    - ./data/fmri/test/S4_Illusion.h5
+  
+  S5:
+    - ./data/fmri/test/S5_Illusion.h5
+     
+  S7:
+    - ./data/fmri/test/S7_Illusion.h5
+ 
+
+rois:
+  VC:     ROI_VC = 1
+  V1:     ROI_V1 = 1
+  V2:     ROI_V2 = 1
+  V3:     ROI_V3 = 1
+  V4:     ROI_hV4 = 1
+  LOC:    ROI_LOC = 1
+  FFA:    ROI_FFA = 1
+  PPA:    ROI_PPA = 1
+
+rois voxel num:
+  VC:    500
+  V1:    500
+  V2:    500
+  V3:    500
+  V4:    500
+  LOC:   500
+  FFA:   500
+  PPA:   500
+
+label key:
+  stimulus_name
+
+
+num_training_samples: [6000, 5000, 5000]
+
+# DNN features
+training feature dir:
+  - ./data/stimulus_feature/train/ImageNetTraining
+  - ./data/stimulus_feature/train/FMD
+  - ./data/stimulus_feature/train/MSCOCO
+  
+
+network:
+  caffe/bvlc_reference_caffenet
+
+layers:
+  - fc6
+
+
+# Feature decoders
+feature decoder dir:
+  ./results/feature-decoding/ImageNetTraining_FMD_MSCOCO/derivatives/feature_decoders
+
+# Decoded features
+decoded feature dir:
+  ./results/feature-decoding/Illusion_single_trial/derivatives/decoded_features # single trial
+  #./results/feature-decoding/Illusion_avg_trials/derivatives/decoded_features # average trials
+
+
+# Learning parameters
+alpha: 100
+chunk axis: 1

@@ -1,0 +1,70 @@
+analysis name: deepreconS6-fmd-mscoco_fmriprep_500voxel_bvlc_reference_caffenet_allunits_fastl2lir_alpha100
+
+# fMRI data
+training fmri:
+
+  S6:
+    - ./data/fmri/train/S6_ImageNetTraining.h5
+    - ./data/fmri/train/S6_FMD.h5
+    - ./data/fmri/train/S6_MSCOCO.h5
+    
+
+test fmri:
+
+  S6:
+    - ./data/fmri/test/S6_Illusion.h5
+
+
+
+rois:
+  VC:     ROI_VC = 1
+  V1:     ROI_V1 = 1
+  V2:     ROI_V2 = 1
+  V3:     ROI_V3 = 1
+  V4:     ROI_hV4 = 1
+  LOC:    ROI_LOC = 1
+  FFA:    ROI_FFA = 1
+  PPA:    ROI_PPA = 1
+
+rois voxel num:
+  VC:    500
+  V1:    500
+  V2:    500
+  V3:    500
+  V4:    500
+  LOC:   500
+  FFA:   500
+  PPA:   500
+
+label key:
+  stimulus_name
+
+
+num_training_samples: [6000, 5000, 5000]
+
+# DNN features
+training feature dir:
+  - ./data/stimulus_feature/train/ImageNetTraining_S6
+  - ./data/stimulus_feature/train/FMD
+  - ./data/stimulus_feature/train/MSCOCO
+  
+
+network:
+  caffe/bvlc_reference_caffenet
+
+layers:
+  - fc6
+
+
+# Feature decoders
+feature decoder dir:
+  ./results/feature-decoding/ImageNetTraining_FMD_MSCOCO/derivatives/feature_decoders
+
+# Decoded features
+decoded feature dir:
+  ./results/feature-decoding/Illusion_single_trial/derivatives/decoded_features
+
+
+# Learning parameters
+alpha: 100
+chunk axis: 1
