@@ -11,7 +11,7 @@ import cv2
 import numpy as np
 
 
-from image_process import img_process, normalise_img
+from eval.image_process import img_process, normalise_img
 
 def MakeRegressor(image_name, path_to_regressor, regressor, img_size, normalization=1, redness=None , 
                   interception=True, save_regressor_img = None, save_path_img = None):
