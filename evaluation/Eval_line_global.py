@@ -64,7 +64,7 @@ r_list = [5]
 
 # presented images
 stimuli_dir_root = './data'
-source_image_dir = os.path.join(stimuli_dir_root, 'Image')
+source_image_dir = os.path.join(stimuli_dir_root, 'test_image')
 source_image_ext = "tif"
 
 # recon from true features

@@ -66,7 +66,7 @@ normalization = None
 
 # presented images
 stimuli_dir_root = './data'
-source_image_dir = os.path.join(stimuli_dir_root, 'Image')
+source_image_dir = os.path.join(stimuli_dir_root, 'test_image')
 source_image_ext = "tif"
 
 # recon from true features
@@ -78,7 +78,7 @@ sbjs = ['S1','S2','S3','S4','S5','S6','S7']
 rois = ['VC', 'V1', 'V2', 'V3', 'V4', 'LOC', 'FFA', 'PPA']
 
 # regressor 
-path_to_regressor = '/home/nu/fcheng/illusion_python/IllusNat210312/regressor/'
+path_to_regressor = './data/regressor/'
 maptype = 'Redness'
 label = 'stimulus + red surface'
 regressor = ['stimulus', 'red_surface']
