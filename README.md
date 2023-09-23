@@ -46,7 +46,7 @@
 <br /> 
 <div align="center">
   <a href="https://github.com/KamitaniLab/IllusionReconstructionblob/main/">
-    <img src="visualization/Reconstruction_procedure.jpg" width="1480" height="500">
+    <img src="visualization/figure/Reconstruction_procedure.jpg" width="1480" height="500">
   </a> 
 </div>
 
