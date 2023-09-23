@@ -33,12 +33,11 @@
 <h2 align="center">Reconstructing visual illusory experiences from human brain activity</h2>
 
   <p align="center">
-    Cheng, F., Horikawa, T., Majima, K., Tanaka, M., Abdelhack, M., Aoki, S. C., Hirano, J., & Kamitani, Y.
-    <br />
+    Fan Cheng, Tomoyasu Horikawa, Kei Majima, Misato Tanaka, Mohamed Abdelhack, Shuntaro C. Aoki, Jin Hirano, Yukiyasu Kamitani
     <br />
     <a href="https://github.com/KamitaniLab/IllusionReconstruction">Paper</a>
     ·
-    <a href="https://doi.org/10.1101/2023.06.15.545037">CCN2022</a>
+    <a href="https://2022.ccneuro.org/view_paper.php?PaperNum=1149">CCN2022</a>
     ·
     <a href="https://doi.org/10.1101/2023.06.15.545037">bioRxiv</a>
   </p>
@@ -46,10 +45,11 @@
 <br />
 <br /> 
 <div align="center">
-  <a href="https://github.com/KamitaniLab/IllusionReconstruction_private/blob/main/">
-    <img src="Fig1_github.jpg" alt="Logo" width="1480" height="500">
+  <a href="https://github.com/KamitaniLab/IllusionReconstructionblob/main/">
+    <img src="visualization/Reconstruction_procedure.jpg" width="1480" height="500">
   </a> 
 </div>
+
 
 
 <!-- TABLE OF CONTENTS -->
