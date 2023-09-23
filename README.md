@@ -35,27 +35,21 @@
   <p align="center">
     Cheng, F., Horikawa, T., Majima, K., Tanaka, M., Abdelhack, M., Aoki, S. C., Hirano, J., & Kamitani, Y.
     <br />
-    <a href="https://doi.org/10.1101/2023.06.15.545037"><strong>bioRxiv »</strong></a>
     <br />
-    <br />
-    <a href="https://github.com/github_username/repo_name">View Demo</a>
+    <a href="https://github.com/KamitaniLab/IllusionReconstruction">Paper</a>
     ·
-    <a href="https://github.com/github_username/repo_name/issues">Report Bug</a>
+    <a href="https://doi.org/10.1101/2023.06.15.545037">CCN2022</a>
     ·
-    <a href="https://github.com/github_username/repo_name/issues">Request Feature</a>
+    <a href="https://doi.org/10.1101/2023.06.15.545037">bioRxiv</a>
   </p>
   
 <br />
 <br /> 
 <div align="center">
-  <a href="https://github.com/KamitaniLab/IllusionReconstruction_private/blob/main/Fig_github.jpb">
-    <img src="results/plots/Fig2.pdf" alt="Logo" width="1480" height="500">
+  <a href="https://github.com/KamitaniLab/IllusionReconstruction_private/blob/main/">
+    <img src="Fig1_github.jpg" alt="Logo" width="1480" height="500">
   </a> 
 </div>
-
-
-[Cheng, F., Horikawa, T., Majima, K., Tanaka, M., Abdelhack, M., Aoki, S. C., Hirano, J., & Kamitani, Y. (2023). Reconstructing visual illusory experiences from human brain activity. bioRxiv.](https://doi.org/10.1101/2023.06.15.545037)
-
 
 
 <!-- TABLE OF CONTENTS -->
@@ -225,13 +219,13 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/github_username/repo_name.svg?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/KamitaniLab/IllusionReconstruction.svg?style=for-the-badge
 [contributors-url]: https://github.com/KamitaniLab/IllusionReconstruction/graphs/contributors
-[forks-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
+[forks-shield]: https://img.shields.io/github/stars/KamitaniLab/IllusionReconstruction.svg?style=for-the-badge
 [forks-url]: https://github.com/KamitaniLab/IllusionReconstruction/forks
-[stars-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
+[stars-shield]: https://img.shields.io/github/issues/KamitaniLab/IllusionReconstruction.svg?style=for-the-badge
 [stars-url]: https://github.com/KamitaniLab/IllusionReconstruction/stargazers
-[issues-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
+[issues-shield]: https://img.shields.io/github/stars/KamitaniLab/IllusionReconstruction.svg?style=for-the-badge
 [issues-url]: https://github.com/KamitaniLab/IllusionReconstruction/issues
 [license-shield]: https://img.shields.io/github/license/github_username/repo_name.svg?style=for-the-badge
 [license-url]: https://github.com/github_username/repo_name/blob/master/LICENSE.txt
