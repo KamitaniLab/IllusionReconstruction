@@ -50,7 +50,7 @@
 
 
 
-<!-- GETTING STARTED -->
+
 ## Getting Started
 
 ### Installation
@@ -89,7 +89,7 @@ To utilize this project, you'll need to download the required dataset [Figshare]
 
 
 
-<!-- USAGE EXAMPLES -->
+
 ## Usage
 
 To quickly test the reconstruction code, run:
@@ -120,7 +120,7 @@ You can find the following figure in `results/plots/quick_test`. From left to ri
 
 <div align="center">
   <a href="https://github.com/KamitaniLab/IllusionReconstruction/blob/main/">
-    <img src="visualization/figure/quick_test.png" width="900" height="300">
+    <img src="visualization/figure/quick_test_github.png" width="900" height="300">
   </a> 
 </div>
 
@@ -128,14 +128,13 @@ You can find the following figure in `results/plots/quick_test`. From left to ri
 
 
 
-<!-- Citation -->
+
 ## Citation
 
 Cheng, F., Horikawa, T., Majima, K., Tanaka, M., Abdelhack, M., Aoki, S. C., Hirano, J., & Kamitani, Y. (2023). Reconstructing visual illusory experiences from human brain activity. BioRxiv. [https://doi.org/10.1101/2023.06.15.545037](https://doi.org/10.1101/2023.06.15.545037)
 
 
 
-<!-- CONTACT -->
 ## Contact
 
 Fan Cheng - [@LibraCheng](https://twitter.com/twitter_handle) - chengfanbrain@gmail.com
