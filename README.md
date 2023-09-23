@@ -73,16 +73,14 @@
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-
 ### Installation
 
-Clone the repo
+Clone the repo:
    ```sh
    git clone https://github.com/KamitaniLab/IllusionReconstruction.git
    ```
 
-### Prerequisites
+### Build Environment
 
 Step1: Navigate to the directory and create the environment by running the following command.
   ```sh
@@ -97,15 +95,12 @@ Step2: Activate the environment.
 
 ### Downloading Dataset
 
-To utilize this project, you'll need to download the required dataset. Follow the steps below to obtain and organize the dataset appropriately.
-
-Step 1: Download data (preprocessed fMRI data, stimulus DNN features, pre-trained generator) from [figShare](https://figshare.com/)
-
-Step2: The project expects the dataset to be located at `./data` in the project's main directory, so make sure to move it to the correct location. 
+To utilize this project, you'll need to download the required dataset [figShare](https://figshare.com/) and organize the dataset appropriately. After downloading data (preprocessed fMRI data, stimulus DNN features, pre-trained generator), make sure to move them to the correct locations.
+ 
   ```sh
   # move fMRI data files (*.h5) and DNN features (*.mat) to ./data 
-  mv path_to_downloaded_fmri ./data/fmri/<train or test>
-  mv path_to_downloaded_DNNfeature ./data/stimulus_feature/<train or test>/<dataset name>/caffe/bvlc_reference_caffenet/ 
+  mv path_to_downloaded_fmri ./data/fmri/train_or_test
+  mv path_to_downloaded_DNNfeature ./data/stimulus_feature/train_or_test/dataset_name/caffe/bvlc_reference_caffenet/ 
   
   
   # move pre-trained generator (*.pt) to ./generator
