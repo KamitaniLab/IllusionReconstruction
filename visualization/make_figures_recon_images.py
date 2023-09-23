@@ -9,10 +9,9 @@ Created on Wed Sep 21 15:09:10 2022
 
 #coding:utf-8
 
-import sys, os, glob
+import os
 import numpy as np
 import PIL
-from PIL import ImageDraw
 from PIL import ImageFont
 import cv2
 
@@ -22,15 +21,15 @@ from plot.image_process import img_process, gammaCorrection
 
 
 # save dirs
-save_dir = os.path.join("./results/plots", 'Fig2')
+save_dir = "./results/plots"
 if not os.path.exists(save_dir):
     os.makedirs(save_dir)
 save_ext = 'pdf'
 
 # fmri
 roi = 'VC'
-sbj = 'S1'
-n_trial = 19
+sbjs = ['S1', 'S2']
+
 drawtypes = ['stimulus','Recon-stimulus', 'Recon-decoded'] 
 
 # Target images
@@ -65,9 +64,12 @@ recon_dir = './results/reconstruction/recon_images/GAN'
 
 # trial number
 n_trial = 4
-trials = np.array([[6,9,11,20], [5, 8,12,18], [8,9,12,18],
+trials = {'S1': np.array([[6,9,11,20], [5, 8,12,18], [8,9,12,18],
                     [3,7,8,10], [3,7,8,10],[2,8,13,17], [2,8,13,17],                     
-                    [5,15,17,19], [5,15,17,19]])
+                    [5,15,17,19], [5,15,17,19]]),
+          'S2': np.array([[3,8,11,15], [5,9,13,15], [7,9,10,15],
+                    [5,11,12,15],[3,7,11,15],[1,10,15,16],[4,10,13,15],
+                    [2,6,14,18],[6,8,10,18]])}
 
 ####################
 def save_img(image, save_jpg_file):
@@ -99,7 +101,7 @@ font_family_path = "/usr/share/fonts/google-crosextra-carlito/Carlito-Bold.ttf"
 #------------------------------------
 # make canvas
 #------------------------------------
-ncol = 1+1+n_trial
+ncol = 1+1+n_trial*len(sbjs)
 nImg_col = ncol
 nImg_row = len(images) 
 size_x = (img_size[0]+h_mergin)*nImg_row+h_mergin
@@ -159,28 +161,29 @@ for drawtype in drawtypes:
         #------------------------------------
         # draw recon from decoded feature
         #------------------------------------
-        for s in range(n_trial):
-            for j in range(stimulus_selection_size):
-
+        for b, sbj in enumerate(sbjs):
+            for s in range(n_trial):
+                for j in range(stimulus_selection_size):
+    
+                        
+                    recon_dir_sbj = os.path.join(recon_dir, sbj, roi)
+    
+                    img_recon_filepath = os.path.join(recon_dir_sbj,  
+                                      "recon_image_normalized-%s.tiff" % (true_image_id_list[j]+'_trial'+'{:02d}'.format(trials[sbj][j,s])))
+                    if os.path.exists(img_recon_filepath):
+                        img_recon = PIL.Image.open(img_recon_filepath)
+                        img_recon = img_recon.resize((img_size[0], img_size[1]), PIL.Image.LANCZOS)
+                        xi = j % nImg_row
+                        yi = s + (j // nImg_row) * ncol+2+b*n_trial
+                        x = xi * (img_size[1]+h_mergin)+h_mergin
+                        y = yi * (img_size[1]+w_mergin)+w_mergin
+                        image[ x:(x+img_size[0]), y:(y+img_size[1]), : ] = np.array(img_recon)[:,:,:]
+                    else:
+                        print("Not foud image:", img_recon_filepath)
                     
-                recon_dir_sbj = os.path.join(recon_dir, sbj, roi)
-                #trials[j,s]
-                img_recon_filepath = os.path.join(recon_dir_sbj,  
-                                  "recon_image_normalized-%s.tiff" % (true_image_id_list[j]+'_trial'+'{:02d}'.format(trials[j,s])))
-                if os.path.exists(img_recon_filepath):
-                    img_recon = PIL.Image.open(img_recon_filepath)
-                    img_recon = img_recon.resize((img_size[0], img_size[1]), PIL.Image.LANCZOS)
-                    xi = j % nImg_row
-                    yi = s + (j // nImg_row) * ncol+2
-                    x = xi * (img_size[1]+h_mergin)+h_mergin
-                    y = yi * (img_size[1]+w_mergin)+w_mergin
-                    image[ x:(x+img_size[0]), y:(y+img_size[1]), : ] = np.array(img_recon)[:,:,:]
-                else:
-                    print("Not foud image:", img_recon_filepath)
-                    
-                    
-save_jpg_file = os.path.join(save_dir, "recon_image_%s.%s" % (sbj, save_ext))
+                        
+save_jpg_file = os.path.join(save_dir, "Fig2.%s" % (save_ext))
 save_img(image, save_jpg_file)
-
-
- 
+    
+    
+     
