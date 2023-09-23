@@ -40,11 +40,10 @@
     <a href="https://2022.ccneuro.org/view_paper.php?PaperNum=1149">CCN2022</a>
     ·
     <a href="https://doi.org/10.1101/2023.06.15.545037">bioRxiv</a>
-  </p>
   
 <div align="center">
   <a href="https://github.com/KamitaniLab/IllusionReconstructionblob/main/">
-    <img src="visualization/figure/Reconstruction_procedure.png" width="900" height="378">
+    <img src="visualization/figure/Reconstruction_procedure.png" width="900" height="365">
   </a> 
 </div>
 
