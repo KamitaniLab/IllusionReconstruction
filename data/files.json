@@ -1,0 +1,123 @@
+{
+    "fmri_training": {
+        "zip": false,
+        "save_in": "./fmri/train",
+        "files": [
+            {"md5sum": "289015c64ea489d6b012356829ed226a",
+             "name": "S1_ImageNetTraining.h5",
+             "url": "https://ndownloader.figshare.com/files/42438333"},
+            {"md5sum": "0072f763932c03c861eec039cf8cba05",
+             "name": "S1_MSCOCO.h5",
+             "url": "https://ndownloader.figshare.com/files/42438315"},
+            {"md5sum": "bad85b741aba7de095fc1d2b25a55946",
+             "name": "S1_FMD.h5",
+             "url": "https://ndownloader.figshare.com/files/42438312"},
+            {"md5sum": "313d7bde33c6603086f4652e8f365fd2",
+             "name": "S2_ImageNetTraining.h5",
+             "url": "https://ndownloader.figshare.com/files/42438339"},
+            {"md5sum": "cde0f085ca6bb4b76062018f181bcc34",
+             "name": "S2_MSCOCO.h5",
+             "url": "https://ndownloader.figshare.com/files/42438327"},
+            {"md5sum": "410198be68ac12c18336f5bc4192412b",
+             "name": "S2_FMD.h5",
+             "url": "https://ndownloader.figshare.com/files/42438324"},
+            {"md5sum": "b7a35ff1dbd1b950a9edf0ca29b56d6b",
+             "name": "S3_ImageNetTraining.h5",
+             "url": "https://ndownloader.figshare.com/files/42438330"},
+            {"md5sum": "b4d38e71bbd36fe85f23e097af05b39c",
+             "name": "S3_MSCOCO.h5",
+             "url": "https://ndownloader.figshare.com/files/42438309"},
+            {"md5sum": "90ac4403176f4aa82f4c336b90d2da1f",
+             "name": "S3_FMD.h5",
+             "url": "https://ndownloader.figshare.com/files/42438306"},
+            {"md5sum": "61864aa83d1d3f2e90bb564c0103aa25",
+             "name": "S4_ImageNetTraining.h5",
+             "url": "https://ndownloader.figshare.com/files/42438336"},
+            {"md5sum": "83b0d0a1ccedf0b14cb56d491bb54ad3",
+             "name": "S4_FMD.h5",
+             "url": "https://ndownloader.figshare.com/files/42438318"},
+            {"md5sum": "ec185b0aa813e75241f5217a681ce981",
+             "name": "S4_MSCOCO.h5",
+             "url": "https://ndownloader.figshare.com/files/42438321"},
+            {"md5sum": "910feeff73f63e75b24034ae0faf2092",
+             "name": "S5_ImageNetTraining.h5",
+             "url": "https://ndownloader.figshare.com/files/42438300"},
+            {"md5sum": "0bb137c2bed1133b76bfca27b9980462",
+             "name": "S5_MSCOCO.h5",
+             "url": "https://ndownloader.figshare.com/files/42438288"},
+            {"md5sum": "4daa99996a3caf452d603210dcc169ec",
+             "name": "S5_FMD.h5",
+             "url": "https://ndownloader.figshare.com/files/42438285"},
+            {"md5sum": "19225556793dc25aa0620ccafede1185",
+             "name": "S6_ImageNetTraining.h5",
+             "url": "https://ndownloader.figshare.com/files/42438303"},
+            {"md5sum": "937403580fcfb00874bc22cb7e6d4ec2",
+             "name": "S6_MSCOCO.h5",
+             "url": "https://ndownloader.figshare.com/files/42438294"},
+            {"md5sum": "1aa81f0ba41a909591be22bbcf299adc",
+             "name": "S6_FMD.h5",
+             "url": "https://ndownloader.figshare.com/files/42438297"},
+            {"md5sum": "e8fa743dbe1864b01eb685fb064d47ce",
+             "name": "S7_ImageNetTraining.h5",
+             "url": "https://ndownloader.figshare.com/files/42438291"},
+            {"md5sum": "41b9318496135674f713b644a3553bec",
+             "name": "S7_MSCOCO.h5",
+             "url": "https://ndownloader.figshare.com/files/42438279"},
+            {"md5sum": "b4ed001005c086302177cf80387df4ee",
+             "name": "S7_FMD.h5",
+             "url": "https://ndownloader.figshare.com/files/42438282"}
+        ]
+    },
+    "fmri_test": {
+        "zip": false,
+        "save_in": "./fmri/test",
+        "files": [
+            {
+                "name":   "S1_Illusion.h5",
+                "url":    "https://figshare.com/ndownloader/files/42439035",
+                "md5sum": "1593b4bcdc81e042527238daaf10b112"
+            },
+            {
+                "name":   "S2_Illusion.h5",
+                "url":    "https://figshare.com/ndownloader/files/42439041",
+                "md5sum": "953aeaf29a4504b8fedc2959467854cd"
+            },
+            {
+                "name":   "S3_Illusion.h5",
+                "url":    "https://figshare.com/ndownloader/files/42439032",
+                "md5sum": "0979f2262800f8a0804f6d2069943f84"
+            },
+            {
+                "name":   "S4_Illusion.h5",
+                "url":    "https://figshare.com/ndownloader/files/42439029",
+                "md5sum": "f6da509cda6b11bf88c9c82d0c93bab6"
+            },
+            {
+                "name":   "S5_Illusion.h5",
+                "url":    "https://figshare.com/ndownloader/files/42439044",
+                "md5sum": "41ff022feb2901241562e14ad6421d5e"
+            },
+            {
+                "name":   "S6_Illusion.h5",
+                "url":    "https://figshare.com/ndownloader/files/42439047",
+                "md5sum": "7c3726f207134cea78f62769623f86f8"
+            },
+            {
+                "name":   "S7_Illusion.h5",
+                "url":    "https://figshare.com/ndownloader/files/42439038",
+                "md5sum": "ebcd9fc1da5c2dfc5fc45f3500a0247d"
+            }
+        ]
+    },
+    "stimulus_feature": {
+        "save_in": "./",
+        "files": [
+            {
+                "name":     "stimulus_feature.zip",
+                "url":      "https://figshare.com/ndownloader/files/42439479",
+                "md5sum":   "c1938fc5a7744960d4b57cdddb6ba8e8",
+                "postproc": [{"name": "unzip"}]
+            }
+        ]
+    }
+}
