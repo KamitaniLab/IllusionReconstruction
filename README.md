@@ -59,20 +59,32 @@ Step2: Activate the environment.
 
 ### Download Dataset
 
-To utilize this project, you'll need to download the required dataset [Figshare](https://figshare.com/) and organize the dataset appropriately. After downloading data (preprocessed fMRI data, stimulus DNN features, pre-trained generator), make sure to move them to the correct locations.
- 
-  ```sh
-  # move fMRI data files (*.h5) and DNN features (*.mat) to data folder 
-  mv path_to_downloaded_fmri ./data/fmri/train_or_test
-  mv path_to_downloaded_DNNfeature ./data/stimulus_feature/train_or_test/dataset_name/caffe/bvlc_reference_caffenet/ 
-  
-  
-  # move pre-trained generator (*.pt) to generator folder
-  mv path_to_downloaded_generator ./generator/generator_name
-  ```
+To utilize this project, you'll need to download the required dataset [Figshare](https://figshare.com/articles/dataset/23590302) and organize the dataset appropriately.
+You can download the required data with the following commands.
 
+fMRI data and image feature:
 
+``` shellsession
+# In "data" directory:
 
+# Training and test fMRI data
+$ python download.py fmri_training
+$ python download.py fmri_test
+
+# Stimulus image features
+$ python download.py stimulus_feature
+```
+
+Pre-trained generator:
+
+``` shellsession
+# In "generator" directory:
+
+# GAN
+$ python download.py GAN
+```
+
+After downloading data (preprocessed fMRI data, stimulus DNN features, pre-trained generator), make sure to move them to the correct locations.
 
 ## Usage
 
