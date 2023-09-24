@@ -104,7 +104,7 @@ You can find the following figure in `results/plots/quick_test`. From left to ri
 
 <div align="center">
   <a href="https://github.com/KamitaniLab/IllusionReconstruction/blob/main/">
-    <img src="visualization/figure/quick_test_github.png" width="600" height="200">
+    <img src="visualization/figure/quick_test_github.png" width="650" height="267">
   </a> 
 </div>
 
@@ -135,7 +135,7 @@ Fan Cheng - [@LibraCheng](https://twitter.com/twitter_handle) - chengfanbrain@gm
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/KamitaniLab/IllusionReconstruction.svg?style=for-the-badge
 [contributors-url]: https://github.com/KamitaniLab/IllusionReconstruction/graphs/contributors
-[forks-shield]: https://img.shields.io/github/stars/KamitaniLab/IllusionReconstruction.svg?style=for-the-badge
+[forks-shield]: https://img.shields.io/github/forks/KamitaniLab/IllusionReconstruction.svg?style=for-the-badge
 [forks-url]: https://github.com/KamitaniLab/IllusionReconstruction/forks
 [stars-shield]: https://img.shields.io/github/issues/KamitaniLab/IllusionReconstruction.svg?style=for-the-badge
 [stars-url]: https://github.com/KamitaniLab/IllusionReconstruction/stargazers
