@@ -27,7 +27,7 @@
   
 <div align="center">
   <a href="https://github.com/KamitaniLab/IllusionReconstruction/blob/main/">
-    <img src="visualization/figure/Reconstruction_procedure.png" width="900" height="365">
+    <img src="visualization/figure_README/Reconstruction_procedure.png" width="900" height="365">
   </a> 
 </div>
 
@@ -104,7 +104,7 @@ You can find the following figure in `results/plots/quick_test`. From left to ri
 
 <div align="center">
   <a href="https://github.com/KamitaniLab/IllusionReconstruction/blob/main/">
-    <img src="visualization/figure/quick_test_github.png" width="650" height="267">
+    <img src="visualization/figure_README/quick_test_github.png" width="650" height="267">
   </a> 
 </div>
 
