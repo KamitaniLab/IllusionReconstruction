@@ -86,6 +86,11 @@ $ python download.py GAN
 
 After downloading data (preprocessed fMRI data, stimulus DNN features, pre-trained generator), make sure to move them to the correct locations.
 
+#### Dataset links
+
+- fMRI data (unpreprocessed, BIDS): [OpenNeuro](https://openneuro.org/datasets/ds004670) doi:10.18112/openneuro.ds004670.v1.0.1
+- Preprocessed fMRI data, timulus image features, and pretrained image generators: [figshare](https://figshare.com/articles/dataset/23590302) doi:10.6084/m9.figshare.23590302
+
 ## Usage
 
 To quickly test the reconstruction code, run:
