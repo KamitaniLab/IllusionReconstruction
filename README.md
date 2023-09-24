@@ -84,7 +84,6 @@ Pre-trained generator:
 $ python download.py GAN
 ```
 
-After downloading data (preprocessed fMRI data, stimulus DNN features, pre-trained generator), make sure to move them to the correct locations.
 
 #### Dataset links
 
@@ -138,7 +137,7 @@ Cheng, F., Horikawa, T., Majima, K., Tanaka, M., Abdelhack, M., Aoki, S. C., Hir
 
 ## Contact
 
-Fan Cheng - [@LibraCheng](https://twitter.com/twitter_handle) - chengfanbrain@gmail.com
+Fan Cheng - [@LibraCheng](https://twitter.com/LibraCheng) - chengfanbrain@gmail.com
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
