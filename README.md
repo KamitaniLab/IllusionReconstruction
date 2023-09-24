@@ -59,7 +59,7 @@ Step2: Activate the environment.
 
 ### Download Dataset
 
-To utilize this project, you'll need to download the required dataset [Figshare](https://figshare.com/) and organize the dataset appropriately.
+To utilize this project, you'll need to download the required dataset [Figshare](https://figshare.com/articles/dataset/23590302) and organize the dataset appropriately.
 You can download the required data with the following commands.
 
 fMRI data and image feature:
