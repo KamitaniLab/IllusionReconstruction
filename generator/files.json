@@ -5,8 +5,20 @@
         "files": [
             {
                 "name": "generator-GAN.zip",
-                "url": "https://figshare.com/ndownloader/files/42439869",
-                "md5sum": "9371bee9eb8b1d5c5c010e36ceea1e47",
+                "url": "https://figshare.com/ndownloader/files/42493692",
+                "md5sum": "c3cee21a044f2c9222e7bb19850799bd",
+                "postproc": [{"name": "unzip"}]
+            }
+        ]
+    },
+    "diffusion": {
+        "zip": true,
+        "save_in": "./",
+        "files": [
+            {
+                "name": "generator-diffusion.zip",
+                "url": "https://figshare.com/ndownloader/files/42493698",
+                "md5sum": "99f84686c9ba2c5e8725e21d7e9df7d4",
                 "postproc": [{"name": "unzip"}]
             }
         ]
