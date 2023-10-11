@@ -99,7 +99,7 @@ To quickly test the reconstruction code, run:
   
   ```
 
-Reconstruct using single-trial fMRI samples, run:
+Reconstruct from single-trial fMRI samples using GAN generator, run:
   
   ```sh
   ./feature_decoding-to-generator.sh
@@ -110,6 +110,13 @@ Evaluate single-trial reconstructions from individual brain regions, run:
 
   ```sh
   ./evaluation_line_color.sh
+  
+  ```
+
+In addition, to test results using diffusion generator, run:
+
+  ```sh
+  ./feature_decoding-to-generator_diffusion.sh
   
   ```
 
@@ -125,8 +132,13 @@ You can find the following figure in `results/plots/quick_test`. From left to ri
 </div>
 
 
+Each row in following figure located in `results/plots/` shows the reconstructions using diffusion model from the same brain activity sample with different random seeds.
 
-
+<div align="center">
+  <a href="https://github.com/KamitaniLab/IllusionReconstruction/blob/main/">
+    <img src="visualization/figure_README/supp_diffusion_different_seeds.png" width="900" height="630">
+  </a> 
+</div>
 
 
 ## Citation
