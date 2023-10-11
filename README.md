@@ -92,28 +92,29 @@ $ python download.py GAN
 
 ## Usage
 
-To quickly test the reconstruction code, run:
+(1) To quickly test the reconstruction code, run:
 
   ```sh
   ./feature_decoding-to-generator_quick_test.sh
   
   ```
 
-Reconstruct from single-trial fMRI samples using GAN generator, run:
+(2) To replicate main results of the paper, run:
   
+Reconstruct from single-trial fMRI samples using GAN generator
   ```sh
   ./feature_decoding-to-generator.sh
   
   ```
   
-Evaluate single-trial reconstructions from individual brain regions, run:
+Evaluate single-trial reconstructions from individual brain regions
 
   ```sh
   ./evaluation_line_color.sh
   
   ```
 
-In addition, to test results using diffusion generator, run:
+(3) In addition, to test results using diffusion generator, run:
 
   ```sh
   ./feature_decoding-to-generator_diffusion.sh
@@ -123,6 +124,7 @@ In addition, to test results using diffusion generator, run:
   
 ### Example output figure  
 
+Example 1:
 You can find the following figure in `results/plots/quick_test`. From left to right columns: stimulus (1), reconstruction from stimulus features (2), reconstruction from brain-decoded features (3-9 correspond to Subject 1-7; using fMRI sample averaged across trials)
 
 <div align="center">
@@ -131,12 +133,12 @@ You can find the following figure in `results/plots/quick_test`. From left to ri
   </a> 
 </div>
 
-
+Example 2:
 Each row in following figure located in `results/plots/` shows the reconstructions using diffusion model from the same brain activity sample with different random seeds.
 
 <div align="center">
   <a href="https://github.com/KamitaniLab/IllusionReconstruction/blob/main/">
-    <img src="visualization/figure_README/supp_diffusion_different_seeds.png" width="900" height="630">
+    <img src="visualization/figure_README/supp_diffusion_different_seeds.png" width="650" height="456">
   </a> 
 </div>
 
