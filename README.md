@@ -124,7 +124,7 @@ Evaluate single-trial reconstructions from individual brain regions
   
 ### Example output figure  
 
-Example 1:
+Example 1 (GAN):
 You can find the following figure in `results/plots/quick_test`. From left to right columns: stimulus (1), reconstruction from stimulus features (2), reconstruction from brain-decoded features (3-9 correspond to Subject 1-7; using fMRI sample averaged across trials)
 
 <div align="center">
@@ -133,8 +133,8 @@ You can find the following figure in `results/plots/quick_test`. From left to ri
   </a> 
 </div>
 
-Example 2:
-Each row in following figure located in `results/plots/` shows the reconstructions using diffusion model from the same brain activity sample with different random seeds.
+Example 2 (diffusion):
+Each row in following figure located in `results/plots/` shows the reconstructions from the same brain activity sample with different random seeds.
 
 <div align="center">
   <a href="https://github.com/KamitaniLab/IllusionReconstruction/blob/main/">
