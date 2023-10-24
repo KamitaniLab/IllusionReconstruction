@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 ### reconstruction  - feed decoded features to generator
 ## supp: diffusion
