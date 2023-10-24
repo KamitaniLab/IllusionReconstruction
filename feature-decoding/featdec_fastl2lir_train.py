@@ -101,12 +101,12 @@ def main(conf):
          info_file = os.path.join(results_dir, 'info.yaml')
          if os.path.exists(info_file):
                with open(info_file, 'r') as f:
-                   info = yaml.load(f)
+                   info = yaml.safe_load(f)
                while info is None:
                    warnings.warn('Failed to load info from %s. Retrying...'
                                     % info_file)
                    with open(info_file, 'r') as f:
-                        info = yaml.load(f)
+                        info = yaml.safe_load(f)
                if '_status' in info and 'computation_status' in info['_status']:
                    if info['_status']['computation_status'] == 'done':
                         print('%s is already done and skipped' % analysis_id)
