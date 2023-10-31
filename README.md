@@ -134,7 +134,7 @@ You can find the following figure in `results/plots/quick_test`. From left to ri
 </div>
 
 Example 2 (diffusion):
-Each row in following figure located in `results/plots/` shows the reconstructions from the same fMRI sample with different random seeds.
+You can find the following figure in `results/plots/`. Each row shows the reconstructions from the same fMRI sample (a single trial of the stimulus) with different random seeds.
 
 <div align="center">
   <a href="https://github.com/KamitaniLab/IllusionReconstruction/blob/main/">
