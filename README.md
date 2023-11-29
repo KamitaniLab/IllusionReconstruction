@@ -25,7 +25,7 @@
     ·
     <a href="https://doi.org/10.1101/2023.06.15.545037">bioRxiv</a>
      
-    <br />
+  <p align="center">
     Our paper has been published in Science Advances!
   
 <div align="center">
@@ -148,7 +148,7 @@ You can find the following figure in `results/plots/`. Each row shows the recons
 
 ## Citation
 
-Cheng, F. L., Horikawa, T., Majima, K., Tanaka, M., Abdelhack, M., Aoki, S. C., Hirano, J., & Kamitani, Y. (2023). Reconstructing visual illusory experiences from human brain activity. Sci. Adv.9,eadj3906(2023).DOI:[10.1126/sciadv.adj3906] (http://www.science.org/doi/10.1126/sciadv.adj3906)
+Cheng, F. L., Horikawa, T., Majima, K., Tanaka, M., Abdelhack, M., Aoki, S. C., Hirano, J., & Kamitani, Y. (2023). Reconstructing visual illusory experiences from human brain activity. Sci. Adv.9,eadj3906(2023).DOI:10.1126/sciadv.adj3906.
 
 
 ## Contact
